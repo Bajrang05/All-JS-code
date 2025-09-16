@@ -22,4 +22,5 @@ console.table([name,age,popular])
 
 //object
 
-console.log(typeof(type));
+console.log(typeof null); //null type is object 
+console.log(typeof undefined);//undefined type is undefined
