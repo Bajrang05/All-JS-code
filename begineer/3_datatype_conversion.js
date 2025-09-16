@@ -23,4 +23,4 @@ let value=Number(isPopular);
 console.table([value,typeof value]);
 
 
-//that for all keep 
+//that for all keep doing and keep exploring
