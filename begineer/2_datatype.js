@@ -14,13 +14,20 @@ console.table([name,age,popular])
 
 
 // number=>2 to power 53
-//bigint
-//string=>"" use
+//bigint =>not use in code 
+//string=>"" use double quotes
 //null=>standalone value
-//undefined=>abi value asccine nani hui hai
+//undefined=>abi value assige nani hui hai
 //symbol=>unique
 
 //object
 
 console.log(typeof null); //null type is object 
 console.log(typeof undefined);//undefined type is undefined
+
+
+//the null means empty and different form undefined
+//the null is not false ,0,empty string "" 
+//i think we need first to start this series 
+//but the mistake was happen in previous dont mistake to not complete this coures
+//it is paid coures need to watch all of this
