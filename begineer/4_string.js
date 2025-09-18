@@ -1,7 +1,7 @@
 //in this lecture only working on different method provided by string
 
 //string
-const string="This This was use for practicing";
+const string="       This This was use for practicing";
 let name="anuj";
 let name_='aditya';
 let name__=`om`;
@@ -33,3 +33,6 @@ console.log(string.substr(4,8));
 console.log(name.concat(" ",name_));
 console.log(string.charAt(5));
 console.log(string.replaceAll("This","Anuj"));
+
+console.log(string.trim()); //trim the first and last white spaces
+console.log(string.replace("use","iiiuuuueee"));
