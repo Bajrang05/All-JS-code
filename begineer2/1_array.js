@@ -11,7 +11,7 @@ myarr.unshift(4);
 // const newArr=myarr.slice(1,3);
 console.log(myarr);
 // console.log(newArr);
-myarr.sort();
+
 console.log(myarr);
 const newArr2=myarr.splice(1,3);
 
