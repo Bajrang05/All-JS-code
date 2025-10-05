@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM -create element</title>
+</head>
+<body>
+    
+
+</body>
+<script>
+    const div=document.createElement('div');
+    div.className="created-div";
+    div.id="created-id";
+    div.setAttribute('title','created-title');
+    div.innerText="This is created by Shivam ";
+    div.style.color="white";
+    div.style.backgroundColor="black";
+    div.style.textAlign="center";
+    div.style.fontSize="30px";
+    div.style.padding="10px";
+    div.style.margin="10px";
+    div.style.borderRadius="10px";
+    div.style.border="2px solid white";
+    document.body.appendChild(div);
+
+</script>
+</html>

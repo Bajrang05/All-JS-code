@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM -Edit and Remove</title>
+</head>
+<body style="background-color: black; color:white">
+    <ul class="language">
+        <li id="name">JavaScript</li>
+        <li id="name">python</li>
+        <li id="name">JAVA</li>
+    </ul>
+</body>
+<script>
+
+    function addname(langName){
+        const li=document.createElement('li');
+        li.innerText=langName;
+        document.querySelector(".language").appendChild(li);
+    }
+    addname("c")
+    addname("Ruby");
+    addname("os"); 
+    console.log("maza aagya bhai sahab");
+
+    function addOptiName(langName){
+        const li=document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+    addOptiName("mast hai ye bhi");
+    addOptiName("kay chal raha hai aur");
+    const secChild=document.querySelector('li:nth-child(2)');
+    const li=document.createElement('li');
+    li.appendChild(document.createTextNode("PYTHON was edit"));
+    secChild.replaceWith(li);
+
+    
+</script>
+</html>

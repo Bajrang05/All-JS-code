@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | 5-10-2025</title>
+</head>
+<body style="background-color: black;"
+    style="color:white">
+
+    <div style="color:white" class="parent">
+    <div class="child">Child 1 <p>yo</p></div>
+    <div class="child">Child 2</div>
+        <div class="child">Child 3</div>
+
+    </div>
+</body>
+    <script>
+        const value=document.querySelector('.parent');
+        console.log(value.children);
+        for(let i=0;i<value.children.length;i++){
+            value.children[i].style.backgroundColor="red";
+            value.children[i].style.margin="10px";
+            value.children[i].style.padding="10px";
+            value.children[i].style.textAlign="center";
+            value.children[i].style.borderRadius="10px";
+            value.children[i].style.border="2px solid white";
+            
+        }
+        const child=document.querySelector(".child");
+        child.children[0].style.inline;
+        child.children[0].style.display="inline";
+        child.children[0].style.backgroundColor="yellow";
+        console.log("Nodes:",value.childNodes)
+        console.log("childNodes:",child.childNodes);
+        
+
+
+
+    </script>
+</html>
